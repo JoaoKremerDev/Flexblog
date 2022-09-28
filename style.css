@@ -26,10 +26,12 @@ img{
 }
 .super-info{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 12px;
     max-width: 960px;
     margin: 0 auto;
+    gap: 0px 30px;
 }
 
 .super-info a{
@@ -44,6 +46,7 @@ img{
 .menu {
     max-width: 960px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
